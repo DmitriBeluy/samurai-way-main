@@ -10,11 +10,8 @@ function MyPosts() {
             <textarea></textarea>
             <button>Add post</button>
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
-            <Post/>
+            <Post message="Hi, how are you?" likesCount={25}/>
+            <Post message="It`s my first post" likesCount={15}/>
         </div>
 
     )
